@@ -1,10 +1,9 @@
-import LeetCode.Array.ContainsDuplicate;
-import LeetCode.Array.RemoveDuplicatesFromSortedArray;
-import LeetCode.Array.SingleNumber;
-import LeetCode.Array.TwoSum;
+import LeetCode.Array.*;
 import Strings.ConvertStringtoUppercase;
 import Strings.RemoveWhitespaceFromString;
 import Strings.TwoEqualStrings;
+
+import java.util.Arrays;
 
 public class Main {
 
@@ -39,5 +38,10 @@ public class Main {
         int[] num2 = {4,1,2,1,2};
         var d =  singleNumber.singleNumber(num2);
         System.out.println(d);
+
+        PlusOne plusOne = new PlusOne();
+        int[] num3 = {4,1,2,1,2};
+        int[] plusone = plusOne.plusOne(num3);
+        System.out.println(Arrays.toString(plusone));
     }
 }
