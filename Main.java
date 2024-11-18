@@ -43,5 +43,9 @@ public class Main {
         int[] num3 = {4,1,2,1,2};
         int[] plusone = plusOne.plusOne(num3);
         System.out.println(Arrays.toString(plusone));
+
+        MoveZeros moveZeros = new MoveZeros();
+        int[] num4 = {0,1,0,0,3,12,0,1,0,0,3,120,1,0,0,3,12};
+        moveZeros.moveZeroes(num4);
     }
 }
