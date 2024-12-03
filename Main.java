@@ -2,6 +2,7 @@ import LeetCode.Array.*;
 import LeetCode.Array.String.FirstUniqueChar;
 import LeetCode.Array.String.ReverseInteger;
 import LeetCode.Array.String.ReversedString;
+import LeetCode.Array.String.ValidAnagram;
 import Strings.ConvertStringtoUppercase;
 import Strings.RemoveWhitespaceFromString;
 import Strings.TwoEqualStrings;
@@ -78,5 +79,9 @@ public class Main {
         FirstUniqueChar firstUniqueChar = new FirstUniqueChar();
         var A1 = firstUniqueChar.firstUniqChar("loveleetcode");
         System.out.println(A1);
+        System.out.println("------------------------------------------------------------ValidAnagram------------------------------------------------------------");
+        ValidAnagram validAnagram = new ValidAnagram();
+        var truth = validAnagram.isAnagram("ab", "ba");
+        System.out.println(truth);
     }
 }
