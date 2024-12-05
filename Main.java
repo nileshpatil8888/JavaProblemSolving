@@ -3,17 +3,15 @@ import LeetCode.Array.String.FirstUniqueChar;
 import LeetCode.Array.String.ReverseInteger;
 import LeetCode.Array.String.ReversedString;
 import LeetCode.Array.String.ValidAnagram;
-import Strings.ConvertStringtoUppercase;
-import Strings.RemoveWhitespaceFromString;
-import Strings.TwoEqualStrings;
+import LeetCode.Array.String.ConvertStringtoUppercase;
+import LeetCode.Array.String.RemoveWhitespaceFromString;
+import LeetCode.Array.String.TwoEqualStrings;
 
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args){
-        HelloWorld helloWorld = new HelloWorld();
-        System.out.println(helloWorld.hello());
         System.out.println("-----------------------------------ConvertStringToUppercase--------------------------------------------------------------");
         ConvertStringtoUppercase convertStringtoUppercase = new ConvertStringtoUppercase();
         System.out.println(convertStringtoUppercase.convert());

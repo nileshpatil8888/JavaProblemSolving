@@ -1,5 +1,10 @@
 package LeetCode.Array.String;
 
+/**
+ * The StringToInteger class provides a method to convert a string representation
+ * of a number into its integer equivalent, following the rules similar to that
+ * of the 'atoi' function in C/C++.
+ */
 public class StringToInteger {
 
     public static int myAtoi(String s) {

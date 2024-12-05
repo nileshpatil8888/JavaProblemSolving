@@ -1,4 +1,4 @@
-package Strings;
+package LeetCode.Array.String;
 
 public class ConvertStringtoUppercase {
 
