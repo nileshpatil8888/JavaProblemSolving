@@ -1,4 +1,4 @@
-package Strings;
+package LeetCode.String;
 
 public class RemoveWhitespaceFromString {
 

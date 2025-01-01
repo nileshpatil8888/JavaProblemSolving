@@ -14,7 +14,7 @@ public class ContainsDuplicate {
         }
         return false;
 
-        /* optimised solution
+        /* optimized solution
         Time complexity o(1)
             public boolean containsDuplicate(int[] nums) {
                HashSet<Integer> set = new HashSet<>();
