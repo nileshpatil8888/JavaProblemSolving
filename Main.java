@@ -1,11 +1,11 @@
 import LeetCode.Array.*;
-import LeetCode.Array.String.FirstUniqueChar;
-import LeetCode.Array.String.ReverseInteger;
-import LeetCode.Array.String.ReversedString;
-import LeetCode.Array.String.ValidAnagram;
-import LeetCode.Array.String.ConvertStringtoUppercase;
-import LeetCode.Array.String.RemoveWhitespaceFromString;
-import LeetCode.Array.String.TwoEqualStrings;
+import LeetCode.String.FirstUniqueChar;
+import LeetCode.String.ReverseInteger;
+import LeetCode.String.ReversedString;
+import LeetCode.String.ValidAnagram;
+import LeetCode.String.ConvertStringtoUppercase;
+import LeetCode.String.RemoveWhitespaceFromString;
+import LeetCode.String.TwoEqualStrings;
 
 import java.util.Arrays;
 

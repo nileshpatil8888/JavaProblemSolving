@@ -1,4 +1,4 @@
-package LeetCode.Array.String;
+package LeetCode.String;
 
 /**
  * The StringToInteger class provides a method to convert a string representation

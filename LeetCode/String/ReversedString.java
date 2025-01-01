@@ -1,4 +1,4 @@
-package LeetCode.Array.String;
+package LeetCode.String;
 
 public class ReversedString {
 
